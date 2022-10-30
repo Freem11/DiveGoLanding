@@ -1,0 +1,11 @@
+.subLineBox{
+    align-items: center;
+    justify-content: center;
+    /* height: 50px;
+    width: 500px; */
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    margin-top: -5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}

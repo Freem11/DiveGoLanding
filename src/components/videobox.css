@@ -1,0 +1,9 @@
+.videoBox{
+    align-items: center;
+    justify-content: center;
+    /* height: 50px;
+    width: 500px; */
+    align-self: center;
+    justify-self: center;
+    border-radius: 15px;
+}
