@@ -9,6 +9,7 @@ import "./App.css";
 function App() {
   return (
     <div className="mainDiv">
+      <div className="topsection">
       <div className="leftTop">
         <HeadLine />
         <SubTitle />
@@ -16,6 +17,7 @@ function App() {
       </div>
       <div className="rightTop">
         <VideoPlayer />
+      </div>
       </div>
     </div>
   );

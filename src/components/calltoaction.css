@@ -1,6 +1,7 @@
 .CTAbox{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    /* background-color: green; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
 }

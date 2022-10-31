@@ -1,16 +1,16 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "./videobox.css";
-import tutVideo from "/videos/screenCaps.mp4";
+import tutVideo from "/videos/screencaps.mp4";
 
 function VideoPlayer() {
   return (
-    <div className="videobox">
+    <div>
       {tutVideo &&
       <ReactPlayer
         url={tutVideo}
-        width="auto"
-        height="600px"
+        width="350px"
+        height="auto"
         controls
         playing={true}
         loop={true}

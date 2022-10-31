@@ -3,9 +3,9 @@ import './headline.css'
 
 function HeadLine() {
     return (
-        <div className="headLineBox">
-            <h1>Make Every Dive Unforgettable</h1> 
-        </div>
+        // <div className="headLineBox">
+            <p className="headLineBox">Make Every Dive Unforgettable</p> 
+        // </div>
     )
 }
 

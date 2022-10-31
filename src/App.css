@@ -8,12 +8,21 @@
   background-color: #add8e6;
 }
 
+.topsection{
+  display: flex;
+  width: 90%;
+}
+
 .leftTop {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
   margin: 8%;
-  margin-top: -20%;
   margin-right: 1%;
+  margin-top: 10%;
 }
 
 .rightTop{
+  width: 50%;
   margin: 8%;
 }
