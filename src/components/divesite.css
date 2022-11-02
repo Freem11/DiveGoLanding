@@ -20,7 +20,7 @@
 .rightside{
     display: flex;
     color: #000;
-    width: 40%;
+    width: 350px;
     align-items: flex-end;
     text-align: right;
     justify-content: flex-end;

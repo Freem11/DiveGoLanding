@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import "./videobox.css";
 import tutVideo from "/videos/screencaps.mp4";
 import phoneCase from "/images/pngwing.com2.png";
 function VideoPlayer() {
   const [video, setVideo] = useState(tutVideo);
-
-  //async await?
 
   return (
     <div className="videobox">
@@ -20,14 +18,13 @@ function VideoPlayer() {
           marginTop: "-40px",
         }}
       ></img>
-      <ReactPlayer
-        url={video}
-        controls={true}
-        playing={true}
-        loop={true}
-        onError={() => setVideo("/videos/screenCaps.mp4")}
-        width="300px"
-        height="700px"
+      <video 
+      src="/videos/screencaps.mp4"
+      autoPlay
+      muted
+      loop
+      controls
+      style={{height: "700px", width: "300px"}}
       />
     </div>
   );
