@@ -1,0 +1,28 @@
+
+.wrapperdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.leftside{
+    color: #000;
+    width: 40%;
+    min-width: 300px;
+}
+
+.childtext{
+    margin-top: -15px;
+}
+
+.rightside{
+    display: flex;
+    color: #000;
+    width: 40%;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: flex-end;
+    min-width: 300px;
+}

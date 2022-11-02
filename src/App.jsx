@@ -4,7 +4,10 @@ import SubTitle from "./components/SubTitle";
 import VideoPlayer from "./components/VideoPlayer";
 import CallToActions from "./components/callToActions";
 import Logo from "./components/Logo";
-import SimpleAccordion from "./components/accordion";
+import DiveSite from "./components/DiveSite";
+import Photos from "./components/Photos";
+import NoGps from "./components/NoGps";
+import Timeline from "./components/timeline";
 import "./App.css";
 
 function App() {
@@ -25,7 +28,10 @@ function App() {
       </div>
 
       <div className="midsection">
-        <SimpleAccordion />
+        <DiveSite />
+        <Photos />
+        <NoGps />
+        <Timeline />
       </div>
     </div>
   );
