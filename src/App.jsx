@@ -6,23 +6,25 @@ import CallToActions from "./components/callToActions";
 import Logo from "./components/Logo";
 import "./App.css";
 
-
 function App() {
   return (
-    <div className="mainDiv">
+    <div style={{minHeight: "1000px", maxHeight: "auto"}}>
       <Logo />
+
       <div className="topsection">
-      <div className="leftTop">
-        <div className="blankbox"></div>
-        <HeadLine />
-        <SubTitle />
-        <CallToActions/>
+
+        <div className="leftTop">
+          <HeadLine />
+          <SubTitle />
+          <CallToActions />
+        </div>
+
+        <div className="rightTop">
+          <VideoPlayer />
+        </div>
+
       </div>
-      <div className="rightTop">
-      <div className="blankbox2"></div>
-        <VideoPlayer />
-      </div>
-      </div>
+      
     </div>
   );
 }
