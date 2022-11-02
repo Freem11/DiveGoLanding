@@ -4,15 +4,15 @@ import SubTitle from "./components/SubTitle";
 import VideoPlayer from "./components/VideoPlayer";
 import CallToActions from "./components/callToActions";
 import Logo from "./components/Logo";
+import SimpleAccordion from "./components/accordion";
 import "./App.css";
 
 function App() {
   return (
-    <div style={{minHeight: "1000px", maxHeight: "auto"}}>
+    <div style={{ minHeight: "1000px", maxHeight: "auto" }}>
       <Logo />
 
       <div className="topsection">
-
         <div className="leftTop">
           <HeadLine />
           <SubTitle />
@@ -22,9 +22,11 @@ function App() {
         <div className="rightTop">
           <VideoPlayer />
         </div>
-
       </div>
-      
+
+      <div className="midsection">
+        <SimpleAccordion />
+      </div>
     </div>
   );
 }

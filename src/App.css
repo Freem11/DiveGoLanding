@@ -8,7 +8,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   margin-top: 5%;
-  position: absolute;
+  /* position: absolute; */
   top: 50;
   background-color: #add8e6;
 }
@@ -40,7 +40,6 @@ body {
   }
 }
 
-
 .rightTop{
   display: flex;
   flex-direction: column;
@@ -51,4 +50,13 @@ body {
   justify-content: center;
   padding-right: 0%;
   /* background-color: lightcoral; */
+}
+
+.midsection{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 }
