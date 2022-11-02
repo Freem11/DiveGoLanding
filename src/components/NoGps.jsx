@@ -1,4 +1,5 @@
 import React from 'react'
+import PinDropPlayer from "./PinDropPlayer";
 import "./divesite.css";
 
 function NoGps() {
@@ -10,7 +11,7 @@ function NoGps() {
             </div>
 
             <div className="rightside">
-                    <p>place pin drop video here</p>
+                    <PinDropPlayer />
             </div>
             
         </div>

@@ -1,11 +1,12 @@
 import React from 'react'
+import TimelinePlayer from "./TimlinePlayer";
 import "./photos.css";
 
 function Timeline() {
     return (
         <div className="wrapperdiv">
             <div className="leftsideAlt">
-            <p>place slider video here</p>
+            <TimelinePlayer />
             </div>
 
             <div className="rightsideAlt">
