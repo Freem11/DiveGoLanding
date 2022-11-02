@@ -3,7 +3,7 @@
 .subLineBox{
     align-items: center;
     justify-content: center;
-    font-size: 1.25vw;
+    font-size: calc(6px + 1vw);
     align-self: center;
     justify-self: center;
     text-align: center;

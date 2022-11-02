@@ -6,7 +6,7 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: calc(20px + 4vw);
     font-family: 'Hind', sans-serif;
     line-height: 1em;
     margin-top: 200px;
