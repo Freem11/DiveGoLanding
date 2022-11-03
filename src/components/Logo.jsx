@@ -11,7 +11,7 @@ function Logo() {
           fontFamily: "Caveat, cursive",
           height: "50px",
           textAlign: "center",
-          marginTop: "7px",
+          marginTop: "10px",
           marginLeft: "5px"
         }}
       >

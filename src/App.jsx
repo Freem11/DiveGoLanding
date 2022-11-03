@@ -8,6 +8,7 @@ import DiveSite from "./components/DiveSite";
 import Photos from "./components/Photos";
 import NoGps from "./components/NoGps";
 import Timeline from "./components/timeline";
+import CallToActionsB from "./components/callToActionsB";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <div className="leftTop">
           <HeadLine />
           <SubTitle />
+          <h2 className="joinusT" style={{fontFamily: "Caveat, cursive",}}>Start Making Your Dives Unforgettable!</h2>
           <CallToActions />
         </div>
 
@@ -32,6 +34,11 @@ function App() {
         <Photos />
         <NoGps />
         <Timeline />
+      </div>
+
+      <div className="bottomsection">
+        <h2 className="joinus" style={{fontFamily: "Caveat, cursive",}}>Start Making Your Dives Unforgettable!</h2>
+        <CallToActionsB />
       </div>
     </div>
   );
