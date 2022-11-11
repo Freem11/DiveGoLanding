@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
-import "./miniplayer.css";
+import "./miniPlayer.css";
 
 function TimelinePlayer() {
+
   return (
     <div className="videobox">
       <video
@@ -11,7 +12,7 @@ function TimelinePlayer() {
         // muted
         loop
         controls
-        style={{ height: "400px", width: "250", borderRadius: "10px" }}
+        className="workahole"
       />
     </div>
   );

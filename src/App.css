@@ -128,4 +128,34 @@ body {
     justify-content: center;
     text-align: center;
   }
+
+
+  .midsection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .bottomsection{
+    display: flex;
+    flex-direction: column;
+    background-color: #add8e6;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .joinus{
+    margin-bottom: -10px;
+    margin-left: -5px;
+    font-size: 30px;
+    width: 80vw;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+  }
 }

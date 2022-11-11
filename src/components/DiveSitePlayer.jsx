@@ -11,7 +11,7 @@ function DiveSitePlayer() {
         // muted
         loop
         controls
-        style={{ height: "400px", width: "250", borderRadius: "10px" }}
+        className="workahole"
       />
     </div>
   );

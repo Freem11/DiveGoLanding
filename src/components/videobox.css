@@ -31,8 +31,7 @@
 
     .mainvideo {
         display: flex;
-        height: 80%;
-        width: 80%;
+        height: 260px;
         margin-top: -100px;
       }
 
