@@ -9,6 +9,8 @@ import Photos from "./components/Photos";
 import NoGps from "./components/NoGps";
 import Timeline from "./components/timeline";
 import CallToActionsB from "./components/callToActionsB";
+import PromoPlayer from "./components/PromoPlayer";
+import WhyVidPlayer from "./components/WhyVidPlayer";
 import "./App.css";
 
 function App() {
@@ -27,6 +29,11 @@ function App() {
         <div className="rightTop">
           <VideoPlayer />
         </div>
+      </div>
+
+      <div className="whyvideosection">
+        <PromoPlayer />
+        <WhyVidPlayer />
       </div>
 
       <div className="midsection">

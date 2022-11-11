@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import "./miniplayer.css";
 
-function MiniPlayer() {
+function DiveSitePlayer() {
   return (
     <div className="videobox">
       <video
@@ -17,4 +17,4 @@ function MiniPlayer() {
   );
 }
 
-export default MiniPlayer;
+export default DiveSitePlayer;

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./divesite.css";
-import MiniPlayer from "./MiniPlayer";
+import DiveSitePlayer from "./DiveSitePlayer";
 import DiveSiteVideo from "/videos/DiveSiteVideo.mp4";
 
 
@@ -13,7 +13,7 @@ function DiveSite() {
             </div>
 
             <div className="rightside">
-                    <MiniPlayer />
+                    <DiveSitePlayer />
             </div>
             
         </div>

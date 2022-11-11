@@ -1,5 +1,5 @@
 import React from "react";
-import Manta from "../../public/images/Matt_Manta_White.png";
+import Manta from "../images/Matt_Manta_White.png";
 import "./logo.css";
 
 function Logo() {
