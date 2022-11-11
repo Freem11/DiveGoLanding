@@ -6,15 +6,7 @@ function Logo() {
   return (
     <div className="logocontainer">
       <img src={Manta} className="mantalogo"></img>
-      <h2
-        style={{
-          fontFamily: "Caveat, cursive",
-          height: "50px",
-          textAlign: "center",
-          marginTop: "10px",
-          marginLeft: "5px"
-        }}
-      >
+      <h2 className="logoname">
         DiveGo
       </h2>
     </div>

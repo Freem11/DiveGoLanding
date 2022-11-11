@@ -24,26 +24,23 @@
 @media only screen and (max-width: 500px) {
 
   .videobox {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    align-self: center;
-    justify-self: center;
-    border-radius: 15px;
-    margin: 0;
+    display: flex;
+    width: 100vw;
   }
 
 
     .mainvideo {
+        display: flex;
         height: 80%;
         width: 80%;
+        margin-top: -100px;
       }
 
       .phoneskin {
-        height: 515px;
-        width: 290px;
-        position: absolute;
-        margin-left: -25px;
-        margin-top: -80px;
+        display: flex;
+        height: 390px;
+        width: 220px;
+        margin-left: 0px;
+        margin-top: -50px;
       }
 }
