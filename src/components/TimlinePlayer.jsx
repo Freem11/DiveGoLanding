@@ -5,7 +5,7 @@ import "./miniPlayer.css";
 function TimelinePlayer() {
 
   return (
-    <div className="videobox">
+    <div className="videoboxMini">
       <video
         src="/videos/TimelineVideo.mp4"
         // autoPlay

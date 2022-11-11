@@ -8,7 +8,7 @@ function DiveSite() {
     return (
         <div className="wrapperdiv">
             <div className="leftside">
-                <h4>Easily Add Your Dive Sites</h4>
+                <h4 className="headertext">Easily Add Your Dive Sites</h4>
                 <p className="childtext">With the "I'm at the Dive Site" button you can get your dive site into the app while you are there</p>
             </div>
 

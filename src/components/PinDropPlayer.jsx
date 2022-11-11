@@ -4,7 +4,7 @@ import "./miniplayer.css";
 
 function PinDropPlayer() {
   return (
-    <div className="videobox">
+    <div className="videoboxMini">
       <video
         src="/videos/PinDropVideo.mp4"
         // autoPlay

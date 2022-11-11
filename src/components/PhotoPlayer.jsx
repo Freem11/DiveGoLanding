@@ -4,7 +4,7 @@ import "./miniplayer.css";
 
 function PhotoPlayer() {
   return (
-    <div className="videobox">
+    <div className="videoboxMini">
       <video
         src="/videos/PhotoVideo.mp4"
         // autoPlay

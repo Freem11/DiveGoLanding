@@ -6,7 +6,7 @@ function NoGps() {
     return (
         <div className="wrapperdiv">
             <div className="leftside">
-                <h4>No GPS, No Problem!</h4>
+                <h4 className="headertext">No GPS, No Problem!</h4>
                 <p className="childtext">No GPS on your photo? Place the manta ray pin anywhere on the map to get the GPS coordinates </p>
             </div>
 

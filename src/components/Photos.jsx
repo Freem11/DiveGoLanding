@@ -4,14 +4,14 @@ import "./photos.css";
 
 function Photos() {
   return (
-    <div className="wrapperdiv">
+    <div className="wrapperdivAlt">
       <div className="leftsideAlt">
         <PhotoPlayer />
       </div>
 
       <div className="rightsideAlt">
-        <h4>Add Your Own Animal Sightings</h4>
-        <p className="childtext">
+        <h4 className="headertextAlt">Add Your Own Animal Sightings</h4>
+        <p className="childtextAlt">
           Upload your animal sightings via photos and the system will catch the
           date and location it was taken
         </p>

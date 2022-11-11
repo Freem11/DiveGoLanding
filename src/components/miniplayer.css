@@ -1,4 +1,4 @@
-.videobox{
+.videoboxMini{
     align-items: center;
     justify-content: center;
     width: 300px;
@@ -16,10 +16,9 @@
 
 @media only screen and (max-width: 500px) {
 
-    .videobox{
+    .videoboxMini{
         align-items: center;
         justify-content: center;
-        width: 80vw;
         align-self: center;
         justify-self: center;
         border-radius: 15px;

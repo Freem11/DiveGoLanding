@@ -4,7 +4,7 @@ import "./miniplayer.css";
 
 function DiveSitePlayer() {
   return (
-    <div className="videobox">
+    <div className="videoboxMini">
       <video
         src="/videos/DiveSiteVideo.mp4"
         // autoPlay
