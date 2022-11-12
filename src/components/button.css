@@ -62,17 +62,17 @@
 
 .appleimg {
   height: 50px;
-  width: 200px;
+  width: 160px;
 }
 
 .googleimg {
     height: 50px;
-    width: 200px;
+    width: 160px;
   }
 
   .mantaimg{
     height: 50px;
-    width: 200px;
+    width: 160px;
   }
 
   @media only screen and (max-width: 500px) {
@@ -132,17 +132,18 @@
 }
 
 .appleimg {
-  height: 30px;
-  width: 100px;
+  height: 40px;
+  width: 130px;
 }
 
 .googleimg {
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 130px;
   }
 
   .mantaimg{
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 130px;
+
   }
   }
