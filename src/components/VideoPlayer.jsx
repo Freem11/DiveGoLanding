@@ -14,10 +14,10 @@ function VideoPlayer() {
       ></img>
       <video 
       src="/videos/screencaps.mp4"
-      autoPlay
-      muted
-      loop
       controls
+      autoPlay
+      loop
+      muted
       className="mainvideo"
       />
     </div>
