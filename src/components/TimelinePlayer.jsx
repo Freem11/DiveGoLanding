@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
-import "./miniPlayer.css";
+import "./miniplayer.css";
 
 function TimelinePlayer() {
 
