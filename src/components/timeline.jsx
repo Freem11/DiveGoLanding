@@ -1,5 +1,5 @@
 import React from 'react'
-import TimelinePlayer from "./TimlinePlayer";
+import TimelinePlayer from "./TimelinePlayer";
 import "./photos.css";
 
 function Timeline() {
