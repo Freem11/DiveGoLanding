@@ -61,25 +61,18 @@
   }
 
 .appleimg {
-  height: 30px;
-  width: 25px;
-  margin-left: 5px;
-  margin-right: -5px;
+  height: 50px;
+  width: 200px;
 }
 
 .googleimg {
-    height: 35px;
-    width: 37px;
-    margin-right: -10px;
-    margin-left: 5px;
+    height: 50px;
+    width: 200px;
   }
 
   .mantaimg{
-    height: 33px;
-    width: 30px;
-    margin-right: -10px;
-    margin-left: 5px;
-    margin-top: -2px;
+    height: 50px;
+    width: 200px;
   }
 
   @media only screen and (max-width: 500px) {
@@ -101,7 +94,7 @@
       flex-direction: column;
       height: 20px;
       margin-left: 5px;
-      margin-top: 0px;
+      margin-top: -5px;
     }
 
 .call {
@@ -139,25 +132,17 @@
 }
 
 .appleimg {
-  height: 18px;
-  width: 15px;
-  margin-left: 31px;
-  margin-right: -7px;
-  margin-top: -2px;
+  height: 30px;
+  width: 100px;
 }
 
 .googleimg {
-    height: 22px;
-    width: 26px;
-    margin-right: -10px;
-    margin-left: 30px;
+    height: 30px;
+    width: 100px;
   }
 
   .mantaimg{
-    height: 22px;
-    width: 20px;
-    margin-right: -10px;
-    margin-left: 30px;
-    margin-top: -4px;
+    height: 30px;
+    width: 100px;
   }
   }
