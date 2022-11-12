@@ -8,8 +8,8 @@ export default function AppleCTAButton() {
     <button className="housing">
       <img src={applelogo} className="appleimg"></img>
       <div className="texts">
-        <div className="call">Download on the</div>
-        <div className="applestore">App Store</div>
+        <div className="call" style={{fontFamily: "Hind"}}>Download on the</div>
+        <div className="applestore" style={{fontFamily: "Hind"}}>App Store</div>
       </div>
     </button>
     </a>

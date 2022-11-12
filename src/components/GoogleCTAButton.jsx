@@ -8,8 +8,8 @@ export default function GoogleCTAButton() {
     <button className="housing">
       <img src={googlelogo} className="googleimg"></img>
       <div className="texts">
-        <div className="call">GET IT ON</div>
-        <div className="googlestore">Google Play</div>
+        <div className="call" style={{fontFamily: "Hind"}}>GET IT ON</div>
+        <div className="googlestore" style={{fontFamily: "Hind"}}>Google Play</div>
       </div>
     </button>
     </a>

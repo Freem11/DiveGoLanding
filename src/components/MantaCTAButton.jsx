@@ -8,8 +8,8 @@ export default function MantaCTAButton() {
     <button className="housing">
       <img src={mantalogo} className="mantaimg"></img>
       <div className="texts">
-        <div className="call">Available</div>
-        <div className="mantastore">On The Web</div>
+        <div className="call" style={{fontFamily: "Hind"}}>Available</div>
+        <div className="mantastore" style={{fontFamily: "Hind"}}>On The Web</div>
       </div>
     </button>
     </a>
