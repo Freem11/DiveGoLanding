@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
 
+.react-player video {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+}
 .vidbox{
     width: 85vw;
     display: flex;
@@ -7,6 +13,10 @@
     margin-top: 20px;
     align-items: center;
     justify-content: center;
+}
+
+.boxforvideo{
+    width: 642px;
 }
 
 .bigvidlabels{
@@ -29,6 +39,11 @@
         align-items: center;
         justify-content: center;
     }
+
+    .boxforvideo{
+        width: 280px;
+    }
+
     .bigvidlabels{
         width: 100%;
         font-size: 14px;
