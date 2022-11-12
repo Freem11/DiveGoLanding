@@ -3,7 +3,7 @@
 .housing {
   display: flex;
   flex-direction: row;
-  height: 50px;
+  height: 0px;
   width: 150px;
   background-color: black;
   border-radius: 10px;
@@ -139,8 +139,8 @@
 .appleimg {
   height: 18px;
   width: 15px;
-  margin-left: 33px;
-  margin-right: -5px;
+  margin-left: 31px;
+  margin-right: -7px;
   margin-top: -2px;
 }
 
