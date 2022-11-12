@@ -10,7 +10,7 @@ function PromoPlayer() {
       <ReactPlayer
       url = "https://youtu.be/xwr6t4mmncc"
       height= "350px"
-      width= "85%"
+      width= "70%"
       controls="true"
        />
     </div>

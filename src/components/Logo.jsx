@@ -11,7 +11,7 @@ function Logo() {
       </h2>
 
       <div className="buttonstyler" onClick={() => window.location = 'mailto:DiveGo2022@gmail.com'}>
-        Contact Me
+        Contact Us
       </div>
     </div>
   );
