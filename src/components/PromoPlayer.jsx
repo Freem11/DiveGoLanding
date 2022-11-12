@@ -8,9 +8,10 @@ function PromoPlayer() {
     <div className="vidbox">
       <h3 className="bigvidlabels">What is DiveGo for?</h3>
       <ReactPlayer
-      url = ""
-      height= "400px"
+      url = "https://youtu.be/xwr6t4mmncc"
+      height= "350px"
       width= "85%"
+      controls="true"
        />
     </div>
   );

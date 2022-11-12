@@ -8,9 +8,9 @@ function WhyVidPlayer() {
     <div className="vidbox">
         <h3 className="bigvidlabels">About Us & DiveGo</h3>
       <ReactPlayer
-      url = ""
-      height= "400px"
+      url = "https://youtu.be/dg-nvVdQR6g"
       width= "85%"
+      controls="true"
        />
     </div>
   );
