@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap");
 
 .logocontainer {
+  position: sticky;
   display: flex;
   flex-direction: row;
   background-color: #355d71;
   height: 45px;
   width: 100vw;
-  position: sticky;
   top: 0;
   z-index: 2;
 }
 
 .mantalogo {
+  position: fixed;
   height: 35px;
   margin-left: 15px;
   margin-top: 2px;
@@ -19,6 +20,7 @@
 }
 
 .logoname {
+  position: fixed;
   font-family: Caveat, cursive;
   height: 50px;
   text-align: center;
