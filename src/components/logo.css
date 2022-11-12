@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap");
 
 .logocontainer {
-  position: sticky;
+  position: fixed;
   display: flex;
   flex-direction: row;
   background-color: #355d71;
@@ -47,7 +47,7 @@
 
     .logocontainer {
         display: flex;
-        position: sticky;
+        position: fixed;
         flex-direction: row;
         background-color: #355d71;
         height: 30px;
