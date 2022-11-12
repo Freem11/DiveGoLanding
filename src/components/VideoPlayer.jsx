@@ -17,7 +17,7 @@ function VideoPlayer() {
       autoPlay
       muted
       loop
-      // controls
+      controls
       className="mainvideo"
       />
     </div>
