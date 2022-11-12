@@ -15,9 +15,9 @@ function VideoPlayer() {
       <video 
       src="/videos/screencaps.mp4"
       autoPlay
-      muted
+      // muted
       loop
-      controls
+      // controls
       className="mainvideo"
       />
     </div>
