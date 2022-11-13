@@ -95,12 +95,6 @@ body {
 
 @media only screen and (max-width: 500px) {
 
-  body {
-    background-color: #add8e6;
-    overflow-x: hidden !important;
-  }
-
-
   .topsection{
     overflow-x: hidden;
     display: flex;
@@ -110,6 +104,7 @@ body {
     margin-top: -2%;
     width: 100vw;
     height: 920px;
+    max-width: 100%;
   }
 
   .leftTop {
@@ -119,6 +114,7 @@ body {
     flex-wrap: wrap;
     width: 100vw;
     max-height: 700px;
+    max-width: 100%;
   }
   .rightTop{
     overflow-x: hidden;
@@ -128,6 +124,7 @@ body {
     width: 100vw;
     margin-top: 0px;
     min-height: 650px;
+    max-width: 100%;
   }
 
   .joinusT{
