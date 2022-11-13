@@ -15,6 +15,7 @@ import "./App.css";
 
 function App() {
   return (
+    <div className="wrapperdivMain">
     <div style={{ minHeight: "1000px", maxHeight: "auto" }}>
       <Logo />
 
@@ -47,6 +48,7 @@ function App() {
         <h2 className="joinus" style={{fontFamily: "Caveat, cursive",}}>Start Making Your Dives Unforgettable!</h2>
         <CallToActionsB />
       </div>
+    </div>
     </div>
   );
 }

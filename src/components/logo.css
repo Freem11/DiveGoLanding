@@ -48,18 +48,18 @@
 
     .logocontainer {
         display: flex;
-        position: fixed;
+        /* position: fixed; */
         flex-direction: row;
         background-color: #355d71;
         height: 30px;
         width: 100vw;
-        position: sticky;
+        /* position: sticky; */
         top: 0;
         z-index: 2;
       }
 
       .mantalogo {
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         height: 23px;
         margin-left: 0px;
@@ -68,7 +68,7 @@
       }
 
       .logoname {
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         font-family: Caveat, cursive;
         height: 40px;
@@ -79,7 +79,7 @@
       }
 
       .buttonstyler{
-        position: fixed;
+        /* position: fixed; */
         top: 3px;
         right: 1px;
         height: 30px;

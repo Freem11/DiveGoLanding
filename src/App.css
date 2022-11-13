@@ -3,6 +3,12 @@
 body {
   background-color: #add8e6;
   overflow-x: hidden;
+  position: relative;
+}
+
+.wrapperdivMain{
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .topsection{
