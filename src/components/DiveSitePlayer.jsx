@@ -7,7 +7,7 @@ function DiveSitePlayer() {
     <div className="videoboxMini">
       <video
         src="/videos/DiveSiteVideo.mp4"
-        // autoPlay
+        autoPlay
         muted
         loop
         controls
