@@ -8,7 +8,7 @@ function DiveSitePlayer() {
       <video
         src="/videos/DiveSiteVideo.mp4"
         // autoPlay
-        // muted
+        muted
         loop
         controls
         className="workahole"
