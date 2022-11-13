@@ -20,6 +20,7 @@ function VideoPlayer() {
       muted
       className="mainvideo"
       />
+      <div className="blackout"></div>
     </div>
   );
 }
