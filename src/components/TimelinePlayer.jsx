@@ -8,8 +8,8 @@ function TimelinePlayer() {
     <div className="videoboxMini">
       <video
         src="/videos/TimelineVideo.mp4"
-        // autoPlay
-        // muted
+        autoPlay
+        muted
         loop
         controls
         className="workahole"

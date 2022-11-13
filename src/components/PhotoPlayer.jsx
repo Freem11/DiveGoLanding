@@ -7,8 +7,8 @@ function PhotoPlayer() {
     <div className="videoboxMini">
       <video
         src="/videos/PhotoVideo.mp4"
-        // autoPlay
-        // muted
+        autoPlay
+        muted
         loop
         controls
         className="workahole"

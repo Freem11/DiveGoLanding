@@ -7,8 +7,8 @@ function PinDropPlayer() {
     <div className="videoboxMini">
       <video
         src="/videos/PinDropVideo.mp4"
-        // autoPlay
-        // muted
+        autoPlay
+        muted
         loop
         controls
         className="workahole"
