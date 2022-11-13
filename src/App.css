@@ -110,6 +110,7 @@ body {
     width: 100vw;
     height: 920px;
     max-width: 100%;
+    min-width: 100%;
   }
 
   .leftTop {
@@ -120,6 +121,7 @@ body {
     width: 100vw;
     max-height: 700px;
     max-width: 100%;
+    min-width: 100%;
   }
   .rightTop{
     /* overflow-x: hidden; */
@@ -130,6 +132,7 @@ body {
     margin-top: 0px;
     min-height: 500px;
     max-width: 100%;
+    min-width: 100%;
   }
 
   .joinusT{
