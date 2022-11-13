@@ -96,6 +96,7 @@ body {
 @media only screen and (max-width: 500px) {
 
   .topsection{
+    overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -106,6 +107,7 @@ body {
   }
 
   .leftTop {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -113,11 +115,11 @@ body {
     max-height: 700px;
   }
   .rightTop{
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100vw;
-    /* max-height: 200px; */
     margin-top: 0px;
     min-height: 650px;
   }
