@@ -13,7 +13,7 @@
 }
 
 .phoneskin {
-  height: 791px;
+  height: 789px;
   width: 450px;
   position: absolute;
   margin-left: -75px;
@@ -36,7 +36,7 @@
   }
 
   .mainvideo {
-    height: 262px;
+    height: 260px;
     width: 200px;
     z-index: 2;
   }
