@@ -95,6 +95,11 @@ body {
 
 @media only screen and (max-width: 500px) {
 
+  body {
+    background-color: #add8e6;
+    overflow-x: hidden !important;
+  }
+
   .topsection{
     /* overflow-x: hidden; */
     display: flex;
@@ -123,7 +128,7 @@ body {
     flex-wrap: wrap;
     width: 100vw;
     margin-top: 0px;
-    min-height: 650px;
+    min-height: 500px;
     max-width: 100%;
   }
 
