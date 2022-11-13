@@ -96,7 +96,7 @@ body {
 @media only screen and (max-width: 500px) {
 
   .topsection{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -108,7 +108,7 @@ body {
   }
 
   .leftTop {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -117,7 +117,7 @@ body {
     max-width: 100%;
   }
   .rightTop{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
