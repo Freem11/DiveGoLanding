@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
 
 .headLineBox{
     align-items: center;
@@ -6,8 +8,8 @@
     align-self: center;
     justify-self: center;
     text-align: center;
-    font-size: calc(20px + 4vw);
-    font-family: 'Hind', sans-serif;
+    font-size: calc(20px + 3.5vw);
+    font-family: 'Overlock', cursive;
     line-height: 1em;
     margin-top: 200px;
 
@@ -22,7 +24,7 @@
         justify-self: center;
         text-align: center;
         font-size: 28px;
-        font-family: 'Hind', sans-serif;
+        font-family: 'Overlock', cursive;
         line-height: 1em;
         margin-top: 200px;
         width: 80vw;

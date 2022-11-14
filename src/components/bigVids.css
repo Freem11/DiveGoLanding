@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Spinnaker&display=swap');
 
 .react-player video {
     position: relative;
@@ -22,7 +23,7 @@
 .bigvidlabels{
     width: 100%;
     font-size: calc(2px + 2.5vw);
-    font-family: 'Hind', sans-serif;
+    font-family: 'Overlock', cursive;
     color: #000;
     margin-left: -3%;
 }
@@ -47,7 +48,7 @@
     .bigvidlabels{
         width: 100%;
         font-size: 14px;
-        font-family: 'Hind', sans-serif;
+        font-family: 'Overlock', cursive;
         color: #000;
         margin-left: 20px;
     }

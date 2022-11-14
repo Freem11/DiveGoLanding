@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
 
 .logocontainer {
   position: fixed;
@@ -38,28 +39,26 @@
   height: 30px;
   width: 150px;
   background-color: transparent;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Spinnaker', sans-serif;
   color: white;
   font-weight: 600;
   cursor: pointer;
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 500px) {
 
     .logocontainer {
         display: flex;
-        /* position: fixed; */
         flex-direction: row;
         background-color: #355d71;
         height: 30px;
         width: 100vw;
-        /* position: sticky; */
         top: 0;
         z-index: 2;
       }
 
       .mantalogo {
-        /* position: fixed; */
         top: 0;
         height: 23px;
         margin-left: 0px;
@@ -68,7 +67,6 @@
       }
 
       .logoname {
-        /* position: fixed; */
         top: 0;
         font-family: Caveat, cursive;
         height: 40px;
@@ -79,13 +77,13 @@
       }
 
       .buttonstyler{
-        /* position: fixed; */
         top: 3px;
         right: 1px;
         height: 30px;
         width: 100px;
         text-align: center;
         background-color: transparent;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Spinnaker', sans-serif;
+        font-size: 14px;
       }
 }
