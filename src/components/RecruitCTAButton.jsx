@@ -1,6 +1,6 @@
 import React from "react";
 import "./button.css";
-import recruit from "../images/RecruitingCTA.png";
+import recruit from "../images/RecruitingCTA2.png";
 
 export default function RecruitCTAButton() {
   return (
