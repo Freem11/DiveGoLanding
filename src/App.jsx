@@ -11,10 +11,8 @@ import Timeline from "./components/timeline";
 import CallToActionsB from "./components/callToActionsB";
 import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
-import heroVid from "/videos/heros.mp4";
+import heroVid from "/videos/heroCompressed.mp4";
 import "./App.css";
-
-//WHAT
 
 let heroWidth = window.width
 let heroHeigth = 800
