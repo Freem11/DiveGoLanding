@@ -12,27 +12,76 @@ body {
 
 }
 
+.mainherovideo{
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  object-fit: cover;
+  margin-top: -200px;
+}
+
 .topsection{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100vw;
   background-color: #add8e6;
+  /* max-height: 850px; */
+  z-index: 0;
 }
 
 .leftTop {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  min-width: 420px;
-  max-height: 650px;
+  max-width: 450px;
+  min-width: 400px;
+  /* max-height: 650px; */
+  max-height: 80vh;
   align-items: center;
   justify-content: center;
   padding-right: 0%;
+  z-index: 1;
 
 }
 
-@media only screen and (max-width: 930px) {
+.rightTop{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 420px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0%;
+  z-index: 1;
+  margin-top: 0px;
+}
+
+.whyvideosection{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  z-index: 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 880px) {
+
+  .mainherovideo{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    object-fit: cover;
+    min-height: 300px;
+    max-height: 490px;
+    margin-top: 45px;
+    margin-left: -20px;
+  }
+
+
   .leftTop {
     display: flex;
     flex-direction: column;
@@ -42,8 +91,12 @@ body {
     align-items: center;
     justify-content: center;
     padding-right: 0%;
-    margin-top: -130px;
+    margin-top: -60px;
   
+  }
+
+  .rightTop{
+    margin-top: 70px;
   }
 }
 
@@ -55,6 +108,7 @@ body {
   min-height: 800px;
   align-items: center;
   justify-content: center;
+  /* margin-top: 60px; */
   padding-right: 0%;
   /* background-color: lightcoral; */
 }
@@ -122,6 +176,17 @@ body {
     min-width: 100%;
   }
 
+
+  .mainherovideo{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    /* object-fit: cover; */
+    max-height: 430px;
+    min-height: 430px;
+    margin-top: 0px;
+  }
+
   .leftTop {
     /* overflow-x: hidden; */
     display: flex;
@@ -141,8 +206,11 @@ body {
     width: 100vw;
     margin-top: -150px;
     min-height: auto;
-    max-width: 100%;
-    min-width: 100%;
+    /* max-width: 100%;
+    min-width: 100%; */
+    /* margin-left: -25%; */
+    justify-content: center;
+    text-align: center;
   }
 
   .joinusT{

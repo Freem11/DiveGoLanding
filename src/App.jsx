@@ -11,17 +11,32 @@ import Timeline from "./components/timeline";
 import CallToActionsB from "./components/callToActionsB";
 import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
+import heroVid from "/videos/heros.mp4";
 import "./App.css";
 
-//I hate You
+//WHAT
 
+let heroWidth = window.width
+let heroHeigth = 800
+
+console.log(heroWidth, heroHeigth)
 function App() {
   return (
     <div className="wrapperdivMain">
     <div style={{ minHeight: "1000px", maxHeight: "auto" }}>
       <Logo />
 
-      <div className="topsection">
+  
+      <div className="topsection" >
+
+      <video 
+      src={heroVid}
+      autoPlay
+      loop
+      muted
+      className="mainherovideo"
+      />
+      
         <div className="leftTop">
           <HeadLine />
           <SubTitle />
@@ -32,6 +47,7 @@ function App() {
         <div className="rightTop">
           <VideoPlayer />
         </div>
+
       </div>
 
       <div className="whyvideosection">

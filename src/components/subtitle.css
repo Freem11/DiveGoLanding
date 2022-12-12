@@ -12,6 +12,7 @@
     width: 62%;
     font-family: 'Spinnaker', sans-serif;
     color: white;
+    z-index: 2;
 }
 
 @media only screen and (max-width: 500px) {

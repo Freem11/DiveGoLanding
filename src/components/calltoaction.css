@@ -7,4 +7,5 @@
     height: auto;
     cursor: default;
     margin-top: 90px;
+    z-index: 2;
 }
