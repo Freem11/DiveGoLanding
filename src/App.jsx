@@ -13,6 +13,8 @@ import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
 import "./App.css";
 
+//I hate You
+
 function App() {
   return (
     <div className="wrapperdivMain">
