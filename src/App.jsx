@@ -14,57 +14,59 @@ import WhyVidPlayer from "./components/WhyVidPlayer";
 import heroVid from "/videos/heroCompressed.mp4";
 import "./App.css";
 
-let heroWidth = window.width
-let heroHeigth = 800
+let heroWidth = window.width;
+let heroHeigth = 800;
 
-console.log(heroWidth, heroHeigth)
+console.log(heroWidth, heroHeigth);
 function App() {
   return (
     <div className="wrapperdivMain">
-    <div style={{ minHeight: "1000px", maxHeight: "auto" }}>
-      <Logo />
+      <div style={{ minHeight: "1000px", maxHeight: "auto" }}>
+        <Logo />
 
-  
-      <div className="topsection" >
+        <div className="topsection">
 
-      <video 
-      src={heroVid}
-      autoPlay
-      loop
-      muted
-      className="mainherovideo"
-      />
-      
-        <div className="leftTop">
-          <HeadLine />
-          <SubTitle />
-          <h2 className="joinusT" style={{fontFamily: "Caveat, cursive",}}>Start Making Your Dives Unforgettable!</h2>
-          <CallToActions />
+            <video
+              src={heroVid}
+              autoPlay
+              loop
+              muted
+              className="mainherovideo"
+            />
+
+          <div className="leftTop">
+            <HeadLine />
+            <SubTitle />
+            <h2 className="joinusT" style={{ fontFamily: "Caveat, cursive" }}>
+              Start Making Your Dives Unforgettable!
+            </h2>
+            <CallToActions />
+          </div>
+
+          <div className="rightTop">
+            <VideoPlayer />
+          </div>
         </div>
 
-        <div className="rightTop">
-          <VideoPlayer />
+        <div className="whyvideosection">
+          <PromoPlayer />
+          <WhyVidPlayer />
         </div>
 
-      </div>
+        <div className="midsection">
+          <DiveSite />
+          <Photos />
+          <NoGps />
+          <Timeline />
+        </div>
 
-      <div className="whyvideosection">
-        <PromoPlayer />
-        <WhyVidPlayer />
+        <div className="bottomsection">
+          <h2 className="joinus" style={{ fontFamily: "Caveat, cursive" }}>
+            Start Making Your Dives Unforgettable!
+          </h2>
+          <CallToActionsB />
+        </div>
       </div>
-
-      <div className="midsection">
-        <DiveSite />
-        <Photos />
-        <NoGps />
-        <Timeline />
-      </div>
-
-      <div className="bottomsection">
-        <h2 className="joinus" style={{fontFamily: "Caveat, cursive",}}>Start Making Your Dives Unforgettable!</h2>
-        <CallToActionsB />
-      </div>
-    </div>
     </div>
   );
 }
