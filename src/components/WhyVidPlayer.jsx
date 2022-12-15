@@ -28,7 +28,7 @@ function WhyVidPlayer() {
         <h3 className="bigvidlabels">About Us & DiveGo</h3>
   
       <ReactPlayer
-      url="https://youtu.be/dg-nvVdQR6g"
+      url="https://youtu.be/hIes4aRm_TI"
       width={vidDimensions.widthVal}
       height={vidDimensions.heightVal}
       controls="true"
