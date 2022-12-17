@@ -74,6 +74,7 @@ body {
 @media only screen and (min-width: 1750px) {
 	.mainherovideo {
 		width: 100vw;
+    margin-top: -200px;
 	}
 
 	.topsection {
@@ -82,7 +83,7 @@ body {
 	}
 
 	.leftTop {
-		max-width: 2200px;
+		max-width: 40%;
 	}
 
 	.headLineBox {
