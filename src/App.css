@@ -84,6 +84,11 @@ body {
 
 	.leftTop {
 		max-width: 40%;
+		margin-top: -200px;
+	}
+
+	.rightTop {
+		margin-top: -200px;
 	}
 
 	.headLineBox {
@@ -99,14 +104,14 @@ body {
 /* Tablet styles */
 @media only screen and (max-width: 880px) {
 	.mainherovideo {
-		position: absolute;
+		/* position: absolute;
 		top: 0;
 		z-index: 0;
-		object-fit: cover;
-		min-height: 300px;
-		max-height: 480px;
-		margin-top: 45px;
-		margin-left: -20px;
+		object-fit: cover; */
+		min-height: 400px;
+		max-height: 750px;
+		/* margin-top: 45px;
+		margin-left: -20px; */
 	}
 
 	.topsection {
@@ -129,6 +134,10 @@ body {
 	.rightTop {
 		margin-top: 0px;
 		min-width: 420px;
+	}
+
+	.headLineBox {
+		max-width: 80%;
 	}
 }
 
