@@ -31,6 +31,7 @@ function App() {
               autoPlay
               loop
               muted
+              playsInline
               className="mainherovideo"
             />
 
