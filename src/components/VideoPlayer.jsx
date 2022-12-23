@@ -13,7 +13,7 @@ function VideoPlayer() {
         className="phoneskin"
       ></img>
       <video 
-      src="/videos/screencaps.mp4"
+      src={tutVideo}
       autoPlay
       loop
       muted
