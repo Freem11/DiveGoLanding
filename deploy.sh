@@ -24,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:freem11/freem11.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
- git push -f git@github.com:freem11/DiveGoLanding.git main:gh-pages
+ git push -f git@github.com:freem11/DiveGoLanding.git master:gh-pages
 
 cd -
