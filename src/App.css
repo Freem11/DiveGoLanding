@@ -25,7 +25,7 @@ body {
 	justify-content: space-evenly;
 	background-color: black;
 	width: 100vw;
-	min-height: 800px;
+	height: 800px;
 	z-index: 0;
 	margin-top: 45px;
 }
@@ -70,23 +70,23 @@ body {
 
 /* Large desktop styles */
 @media only screen and (min-width: 1750px) {
+
 	.mainherovideo {
-		width: 100vw;
-    margin-top: -200px;
+		margin-top: -200px;
 	}
 
 	.topsection {
 		justify-content: center;
-		margin-top: 200px;
+		height: 1000px;
 	}
 
 	.leftTop {
 		max-width: 40%;
-		margin-top: -200px;
+		margin-top: 00px;
 	}
 
 	.rightTop {
-		margin-top: -200px;
+		/* margin-top: -200px; */
 	}
 
 	.headLineBox {
@@ -101,13 +101,13 @@ body {
 
 /* Tablet styles */
 @media only screen and (max-width: 880px) {
-	.mainherovideo {
+	/* .mainherovideo {
 		min-height: 400px;
 		max-height: 750px;
-	}
+	} */
 
 	.topsection {
-		height: 1270px;
+		height: 1200px;
 		background-color: #add8e6;
 	}
 
@@ -124,7 +124,7 @@ body {
 	}
 
 	.rightTop {
-		margin-top: 0px;
+		margin-top: -140px;
 		min-width: 420px;
 	}
 
@@ -133,7 +133,7 @@ body {
 	}
 }
 
-.rightTop {
+/* .rightTop {
 	display: flex;
 	flex-direction: column;
 	max-width: 500px;
@@ -142,7 +142,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding-right: 0%;
-}
+} */
 
 .joinusT {
 	margin-bottom: -50px;
@@ -224,7 +224,7 @@ body {
 		max-height: 700px;
 		max-width: 100%;
 		min-width: 100%;
-		margin-top: -210px;
+		margin-top: -180px;
 	}
 	.rightTop {
 		display: flex;
