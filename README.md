@@ -4,7 +4,7 @@ Fully repsonsive for web, tablet and mobile screens
 
 # Live at : 
 
-https://divego-landing.netlify.app/
+https://divegolanding.web.app/
 
 # Screenshots
 
