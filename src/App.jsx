@@ -38,7 +38,7 @@ if (screenInital < 501) {
 
 let Heighty
 let Widthy
-// console.log(heroWidth, heroHeigth);
+
 function App() {
   const [vidWidth, setVidWidth] = useState(heroWidth);
   const [vidHeigth, setVidHeigth] = useState(heroHeigth);
