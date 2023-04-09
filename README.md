@@ -13,12 +13,12 @@ https://divegolanding.web.app/
 
 ## Web
 
-!["Screenshot of Web Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Web.png)
+!["Screenshot of Web Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Web2.png)
 
 ## Tablet
 
-!["Screenshot of Tablet Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Tablet.png)
+!["Screenshot of Tablet Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Tablet2.png)
 
 ## Mobile
 
-!["Screenshot of Mobile Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Mobile.png)
+!["Screenshot of Mobile Screen"](https://github.com/Freem11/DiveGoLanding/blob/master/src/images/Mobile2.png)
