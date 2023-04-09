@@ -1,4 +1,5 @@
 .videoboxMini{
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
@@ -13,10 +14,15 @@
     border-radius: 10px;
 }
 
+.tutvideo{
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 @media only screen and (max-width: 500px) {
 
     .videoboxMini{
+        display: flex;
         align-items: center;
         justify-content: center;
         align-self: center;
