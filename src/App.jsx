@@ -4,10 +4,11 @@ import SubTitle from "./components/SubTitle";
 import VideoPlayer from "./components/VideoPlayer";
 import CallToActions from "./components/callToActions";
 import Logo from "./components/Logo";
-import DiveSite from "./components/DiveSite";
-import Photos from "./components/Photos";
-import NoGps from "./components/NoGps";
-import Timeline from "./components/timeline";
+import TutOne from "./components/FirstTutorial/TutOne";
+import TutTwo from "./components/SecondTutorial/TutTwo";
+import TutThree from "./components/ThirdTutorial/TutThree";
+import TutFour from "./components/FourthTutorial/TutFour";
+import TutFive from './components/FifthTutorial/TutFive';
 import CallToActionsB from "./components/callToActionsB";
 import PromoPlayer from "./components/PromoPlayer";
 import WhyVidPlayer from "./components/WhyVidPlayer";
@@ -116,10 +117,11 @@ function App() {
         </div>
 
         <div className="midsection">
-          <DiveSite />
-          <Photos />
-          <NoGps />
-          <Timeline />
+          <TutOne />
+          <TutTwo />
+          <TutThree />
+          <TutFour />
+          <TutFive />
         </div>
 
         <div className="bottomsection">
